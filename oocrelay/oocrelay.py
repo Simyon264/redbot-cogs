@@ -224,7 +224,6 @@ class OocRelay(commands.Cog):
     
     @commands.command()
     @commands.guild_only()
-    @commands.has_permissions(administrator=True)
     async def listrelays(self, ctx: commands.Context):
         """
         List all servers that are being relayed.
